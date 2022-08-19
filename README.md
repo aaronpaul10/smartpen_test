@@ -53,7 +53,7 @@ I've named all the classes as self-descriptive as possible. Method names are con
 
 ## Time Complexity
 
-The application runs at least O(3n) as we loop through the data 5 times, each with O(n) time complexity:
+The application runs at least O(3n) as we loop through the data 3 times, each with O(n) time complexity:
 
 * LogParser::Reader breaking each line of the log file.
 * LogParser::Tokenizer tokenizing the data.
